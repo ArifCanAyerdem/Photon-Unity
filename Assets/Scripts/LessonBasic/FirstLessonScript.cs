@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace lessonBasic
+namespace LessonBasic
 { 
 
 public class FirstLessonScript : MonoBehaviour
@@ -11,6 +11,7 @@ public class FirstLessonScript : MonoBehaviour
    
 
         public int tamSayi=1;
+      [SerializeField]  private Vector3 ucFloat=new Vector3(1,2,3);
 
 
     void Start()
